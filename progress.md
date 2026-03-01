@@ -16,3 +16,15 @@ Original prompt: lets create a typescript, vite super mario game and deploy to g
 - Adjusted first enemy patrol further right to avoid immediate early collision.
 - Production build passes (`npm run build`).
 - Next: initialize git + GitHub repo, push, deploy to GitHub Pages.
+
+- Initialized git repo, created initial commit, and created remote GitHub repo:
+  - https://github.com/dashscoob23/super-typescript-mario
+- Pushed `main` and deployed `dist` via `gh-pages` package (`npm run deploy`).
+- GitHub Pages API status: `building` at deployment completion.
+- Expected live URL: https://dashscoob23.github.io/super-typescript-mario/
+
+TODOs / Suggestions for next iteration:
+- Add power-up mechanics (mushroom/star) and health/lives system.
+- Add mobile touch controls overlay for phone play.
+- Add audio (coin, jump, enemy stomp, win/lose).
+- Add CI workflow for build + Pages deploy on push.
