@@ -1,0 +1,33 @@
+:root {
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  color: #1f2230;
+  background: radial-gradient(circle at top, #d8f2ff, #b4e3ff 42%, #89ceea 80%, #66b7db);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#app {
+  width: min(100vw, 980px);
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+canvas {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 6px solid #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+  image-rendering: pixelated;
+  background: #98d5ff;
+}
